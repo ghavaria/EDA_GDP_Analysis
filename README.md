@@ -8,15 +8,15 @@ The overall goal of this project is to help the CMs focus on areas that will fos
 
 he data for GDP analysis of the Indian states is divided into two parts:
 
-Data I-A: This dataset consists of the GSDP (Gross State Domestic Product) data for the states and union territories.
+### Data I-A: This dataset consists of the GSDP (Gross State Domestic Product) data for the states and union territories.
 
-Data I-B: This dataset contains the distribution of GSDP among three sectors: the primary sector (agriculture), the secondary sector (industry) and the tertiary sector (services) along with taxes and subsidies. There is separate dataset for each of the states. You are expected to read the dataset for the available states and join these (in Python) if needed.
+### Data I-B: This dataset contains the distribution of GSDP among three sectors: the primary sector (agriculture), the secondary sector (industry) and the tertiary sector (services) along with taxes and subsidies. There is separate dataset for each of the states. You are expected to read the dataset for the available states and join these (in Python) if needed.
 
-Part-I: GDP Analysis of the Indian States
+### Part-I: GDP Analysis of the Indian States
 
-Part I-A:
+### Part I-A:
 
-For the analysis below, use the Data I-A.
+### For the analysis below, use the Data I-A.
 
 First, you need to load the data in Python properly and then clean it. This also involves the treatment of missing values, you can choose to drop the row or column as well. Remember this will affect your next analysis and results drastically.
 
@@ -38,7 +38,7 @@ What insights can you draw from this graph? What states are performing poorly? (
 
 
 
-Part I-B:
+### Part I-B:
 
 For the analysis below, use Data I-B. You can also use Data I-B along with Data I-A if required. Also, perform the analysis only for the duration 2014-15. 
 Filter out the union territories (Delhi, Chandigarh, Andaman and Nicobar Islands, etc.) for further analysis, as they are governed directly by the central, not state governments.
@@ -54,14 +54,13 @@ Note: Categorisation into four groups will simplify the subsequent analysis, as 
 For each category (C1, C2, C3, C4):
 Find the top 3/4/5 sub-sectors (such as agriculture, forestry and fishing, crops, manufacturing etc., not primary, secondary and tertiary) that contribute to approximately 80% of the GSDP of each category.
 
-Note-I: The nomenclature for this project is as follows: primary, secondary and tertiary are named 'sectors', while agriculture, manufacturing etc. are named 'sub-sectors'.
+### Note-I: The nomenclature for this project is as follows: primary, secondary and tertiary are named 'sectors', while agriculture, manufacturing etc. are named 'sub-sectors'.
 
-Note-II: If the top 3 sub-sectors contribute to, say, 79% of the GDP of some category, you can report "These top 3 sub-sectors contribute to approximately 80% of the GDP". This is to simplify the analysis and make the results consumable. (Remember, the CEO has to present the report to the CMs, and CMs have limited time; so, the analysis needs to be sharp and concise.)
+### Note-II: If the top 3 sub-sectors contribute to, say, 79% of the GDP of some category, you can report "These top 3 sub-sectors contribute to approximately 80% of the GDP". This is to simplify the analysis and make the results consumable. (Remember, the CEO has to present the report to the CMs, and CMs have limited time; so, the analysis needs to be sharp and concise.)
 
 Plot the contribution of the sub-sectors as a percentage of the GSDP of each category.  
 
  
-
 Now that you have summarised the data in the form of plots, tables, etc., try to draw non-obvious insights from it. Think about questions such as:
 
 How does the GDP distribution of the top states (C1) differ from the others?
@@ -71,26 +70,23 @@ Which sub-sectors do the various categories need to focus on?
 
 Ask other such relevant questions, which you think are important, and note your insights for category separately. More insights are welcome and will be awarded accordingly.
 
- 
-
 Finally, provide at least two recommendations for each category to improve the per capita GDP.
  
 
-Part-II: GDP and Education Dropout Rates
-In Part-I, you would have noticed that (one) way to increase per capita GDP is by shifting the distribution of GDP towards the secondary and tertiary sectors, i.e., the manufacturing and services industries. But these industries can thrive only when there is an availability of educated and skilled labour.
+### Part-II: GDP and Education Dropout Rates
+### In Part-I, you would have noticed that (one) way to increase per capita GDP is by shifting the distribution of GDP towards the secondary and tertiary sectors, i.e., the manufacturing and services industries. But these industries can thrive only when there is an availability of educated and skilled labour.
 
  
 
 In this part of the analysis, you will investigate whether there is any relationship between per capita GDP with dropout rates in education.
 
  
-Data
+# Data
 
 Data II: This section will require the dropout rate dataset apart from the dataset that you used in Part-1 of the case study. Download instructions are provided in the next segment.
 
  
-
-Part-II: GDP and Education
+### Part-II: GDP and Education
 
 Analyse if there is any correlation of GDP per capita with dropout rates in education (primary, upper primary and secondary) for the year 2014-2015 for each state. Choose an appropriate plot to conduct this analysis.
 
